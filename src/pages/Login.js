@@ -20,7 +20,7 @@ const Login = () => {
   return (
     <>
       <Helmet>
-        <title>Login | Material Kit</title>
+        <title>Login | Blueway ATE 2020</title>
       </Helmet>
       <Box
         sx={{

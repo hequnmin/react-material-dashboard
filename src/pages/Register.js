@@ -19,7 +19,7 @@ const Register = () => {
   return (
     <>
       <Helmet>
-        <title>Register | Material Kit</title>
+        <title>Register | Blueway ATE 2020</title>
       </Helmet>
       <Box
         sx={{
