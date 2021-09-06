@@ -91,13 +91,13 @@ const ProgramListResults = ({ programs, ...rest }) => {
               {programs.slice(0, limit).map((program) => (
                 <TableRow
                   hover
-                  key={program.id}
-                  selected={selectedProgramIds.indexOf(program.id) !== -1}
+                  key={program.programid}
+                  selected={selectedProgramIds.indexOf(program.programid) !== -1}
                 >
                   <TableCell padding="checkbox">
                     <Checkbox
-                      checked={selectedProgramIds.indexOf(program.id) !== -1}
-                      onChange={(event) => handleSelectOne(event, program.id)}
+                      checked={selectedProgramIds.indexOf(program.programid) !== -1}
+                      onChange={(event) => handleSelectOne(event, program.programid)}
                       value="true"
                     />
                   </TableCell>
